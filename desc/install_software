@@ -1,0 +1,8 @@
+sudo yum install pptp pptp-setup  # 购买的vpn，使用pptp翻墙
+sudo yum install go               # 安装go编程环境
+sudo yum install python-devel     # 安装python的devel库
+sudo yum install epel-release     # 安装epel源
+
+
+sudo python get-pip.py            # 安装 pip
+sudo pip -r requirements.txt      # 安装 python lib
